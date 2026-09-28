@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "Scenario 1: Critical Thermal & Mechanical",
+    "telemetry": {
+      "engine_temperature": 114.5,
+      "rpm": 4650.0,
+      "oil_pressure": 15.2,
+      "vibration": 5.42,
+      "battery_voltage": 12.1,
+      "coolant_temperature": 105.8,
+      "fuel_consumption": 14.8,
+      "vehicle_speed": 110.0,
+      "operating_hours": 4350.0
+    },
+    "diagnosis": {
+      "Vehicle Health": "0%",
+      "Failure Probability": "100%",
+      "Status": "CRITICAL",
+      "Major contributing factors": [
+        "Abnormal oil pressure",
+        "Rising temperature",
+        "High vibration"
+      ]
+    }
+  },
+  {
+    "scenario": "Scenario 2: Incipient Wear (Warning Profile)",
+    "telemetry": {
+      "engine_temperature": 98.0,
+      "rpm": 3100.0,
+      "oil_pressure": 28.0,
+      "vibration": 3.6,
+      "battery_voltage": 13.4,
+      "coolant_temperature": 90.0,
+      "fuel_consumption": 8.2,
+      "vehicle_speed": 72.0,
+      "operating_hours": 2200.0
+    },
+    "diagnosis": {
+      "Vehicle Health": "58%",
+      "Failure Probability": "40%",
+      "Status": "WARNING",
+      "Major contributing factors": [
+        "Abnormal oil pressure",
+        "High vibration",
+        "Rising temperature"
+      ]
+    }
+  },
+  {
+    "scenario": "Scenario 3: Nominal Cruising",
+    "telemetry": {
+      "engine_temperature": 86.4,
+      "rpm": 2100.0,
+      "oil_pressure": 38.6,
+      "vibration": 1.72,
+      "battery_voltage": 13.9,
+      "coolant_temperature": 79.5,
+      "fuel_consumption": 5.8,
+      "vehicle_speed": 55.0,
+      "operating_hours": 950.0
+    },
+    "diagnosis": {
+      "Vehicle Health": "99%",
+      "Failure Probability": "0%",
+      "Status": "NORMAL",
+      "Major contributing factors": [
+        "Rising temperature",
+        "Engine speed instability (RPM)",
+        "Abnormal oil pressure"
+      ]
+    }
+  }
+]

@@ -1,0 +1,7 @@
+Model,Accuracy (%),Precision (%),Recall (%),Specificity (%),F1-Score,ROC-AUC,Train Time (s),Inference Latency (ms/sample)
+Logistic Regression,99.92,100.0,99.39,100.0,0.9969,1.0,0.0143,0.00086
+Decision Tree,99.17,98.11,95.71,99.71,0.9689,0.9951,0.0198,0.00099
+Random Forest,99.42,98.15,97.55,99.71,0.9785,0.9998,0.2861,0.03351
+Gradient Boosting,99.42,97.56,98.16,99.61,0.9786,0.9994,2.2715,0.01754
+XGBoost,99.83,100.0,98.77,100.0,0.9938,0.9999,0.1395,0.00303
+MLP (Neural Net),99.92,100.0,99.39,100.0,0.9969,1.0,0.4556,0.00239

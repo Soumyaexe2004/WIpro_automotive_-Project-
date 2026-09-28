@@ -1,0 +1,118 @@
+
+=== PAGE 1 ===
+Module 3 (Connectivity) Project 
+(Develop any ONE) 
+1. Project title:  AI/ML-Based Predictive Maintenance and Vehicle Health Monitoring 
+System  
+AI/ML Technologies: Random Forest, XGBoost, LSTM, XAI 
+Models: Logistic Regression, Decision Tree, Random Forest, XGBoost, LSTM, GRU, 
+Transformer 
+Goal: Predict vehicle/component failure before it occurs. 
+Input data 
+ Engine temperature  
+ RPM  
+ Oil pressure  
+ Vibration  
+ Battery voltage  
+ Coolant temperature  
+ Fuel consumption  
+ Vehicle speed  
+ Operating hours 
+Architecture  
+Vehicle Sensors 
+      ↓ 
+RPM | Temperature | Pressure | Vibration 
+      ↓ 
+Data Preprocessing 
+      ↓ 
+ML/DL Model 
+      ↓ 
+Failure Probability 
+      ↓ 
+Vehicle Health Score 
+      ↓ 
+Maintenance Alert 
+Sample Output 
+Vehicle Health: 72% 
+Failure Probability: 68% 
+Status: WARNING 
+ 
+Major contributing factors: 
+1. High vibration 
+=== PAGE 2 ===
+2. Rising temperature 
+3. Abnormal oil pressure 
+ 
+2. Project title: AI-Based Driver Behaviour, Fatigue and Risk Detection System 
+AI/ML Technologies: ML, CNN, LSTM 
+The system learns driving behavior and identifies potentially unsafe situations. 
+Parameters 
+ Speed  
+ Acceleration  
+ Braking  
+ Steering  
+ Lane deviation  
+ Eye closure  
+ Head position  
+ Phone usage 
+Develop a system that identifies: 
+ Normal driving  
+ Aggressive acceleration  
+ Sudden braking  
+ Distracted driving  
+ Drowsiness  
+ Unsafe driving 
+Architecture  
+Camera + Vehicle Sensors 
+          ↓ 
+Feature Extraction 
+          ↓ 
+CNN/LSTM 
+          ↓ 
+Driver Behavior 
+          ↓ 
+Risk Score 
+Possible classes 
+ Normal  
+ Aggressive  
+ Distracted  
+ Drowsy  
+ Unsafe braking  
+ Unsafe acceleration 
+=== PAGE 3 ===
+3. Project title: AI-Based Automotive Review and Customer Sentiment Analytics 
+AI/ML Technologies: BERT, XLM-R, NLP 
+Goals: Analyze vehicle reviews and identify sentiment for individual aspects. 
+Data 
+Automotive reviews can be analyzed for: 
+ Vehicle  
+ Engine  
+ Battery  
+ Mileage  
+ Safety  
+ Comfort  
+ Service  
+ Infotainment  
+ Price 
+Architecture  
+Automotive Reviews 
+       ↓ 
+Text Preprocessing 
+       ↓ 
+Tokenizer 
+       ↓ 
+BERT / XLM-R 
+       ↓ 
+Sentiment Classification 
+       ↓ 
+Aspect Extraction 
+       ↓ 
+Aspect-Level Sentiment 
+ 
+Example: 
+"The battery range is excellent, but the charging time is too long." 
+Output 
+Aspect           Sentiment 
+Battery range           Positive 
+Charging time           Negative 
+ 
